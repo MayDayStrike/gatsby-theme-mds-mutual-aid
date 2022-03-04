@@ -18,7 +18,7 @@ const SubmitPage = () => {
   `);
   return (
     <Layout>
-      <SEO title="Submit a Fundraiser" />
+      <SEO title="Submit a Resource" />
 
       <p className="mb-10">
         <Link
