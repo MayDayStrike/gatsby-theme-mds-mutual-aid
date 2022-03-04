@@ -51,13 +51,12 @@ module.exports = ({ authorName, authorLink }) => {
         }
       },
       {
-        resolve: `gatsby-plugin-prefetch-google-fonts`,
+        resolve: `gatsby-plugin-google-fonts`,
         options: {
           fonts: [
-            {
-              family: `Bungee`
-            }
-          ]
+            `Bungee`
+          ],
+          display: 'swap'
         }
       },
       `gatsby-plugin-preact`
