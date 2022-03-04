@@ -6,7 +6,7 @@ module.exports = ({ authorName, authorLink }) => {
   return {
     siteMetadata: {
       title: `${process.env.CITY} Relief Resources`,
-      description: `A list of resources that ${process.env.CITY} residents can both utilize and donate to during and beyond this COVID-19 situation.`,
+      description: `A list of resources that ${process.env.CITY} residents can both utilize and donate to during and beyond the May Day Strike.`,
       authorName: `Subvocal`,
       authorLink: `https://maydaystrike.org`,
       authorTwitter: `Subvocal_Dev`,

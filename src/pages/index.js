@@ -12,7 +12,7 @@ const IndexPage = () => {
       <Description location="home" />
       <div className="mb-10 border shadow p-6">
         <p className="mb-6">
-          <h2>If you're impacted in any way by COVID-19, please <Link to="/find-help" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          <h2>If you're impacted in any way, please <Link to="/find-help" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
           target="_blank"
           rel="noopener noreferrer">Find Help</Link></h2>
         </p>

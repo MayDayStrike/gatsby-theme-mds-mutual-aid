@@ -43,16 +43,11 @@ const Layout = ({ children }) => {
             Gatsby
           </a>{" "}
           by{" "}
-          <a className="text-blue-600" href="https://twitter.com/gatsbyjs">
-            some Gatsby folks
+          <a className="text-blue-600" href="https://maydaystrike.org">
+            May Day Strike
           </a>
           .{" "}
-          Remixed by{" "}
-          <a className="text-blue-600" href={data.site.siteMetadata.authorLink}>
-            {data.site.siteMetadata.authorName}
-          </a>
-          .{" "}
-          <a className="text-blue-600" href="https://www.reliefresources.us/">
+          <a className="text-blue-600" href="https://github.com/SubvocalDev/gatsby-starter-mds-mutual-aid/blob/main/README.md">
             Build one for your city.
           </a>
         </footer>
